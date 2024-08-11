@@ -1,0 +1,36 @@
+{
+    "name": "vediansoftware/laravel-grapebuilder",
+    "description": "A CMS Package for Laravel to build pages using Grape and TailwindCSS",
+    "autoload": {
+        "psr-4": {
+            "Vedian\\Grapebuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vedian\\Grapebuilder\\ServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "role": "Engineer",
+            "name": "Tom v. T.",
+            "email": "tom@vediansoft.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.2",
+        "barryvdh/laravel-ide-helper": "^3.1",
+        "laravel/framework": "^11.0",
+        "laravel/tinker": "^2.9"
+    },
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
